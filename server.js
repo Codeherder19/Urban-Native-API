@@ -16,16 +16,24 @@ app.listen(app.get('port'), () => {
 app.get(`/api/v1/crops`, (request, response) => {
   const crops = app.locals.crops;
 
+  if (!crops) {
+    return response.sendStatus(404)
+  }
+
   response.status(200).json({ crops });
 })
 
 app.get(`/api/v1/users/:id`, (request, response) => {
-  const { id } = request.params;
-  const currentUser = app.locals.users.find(user => user.id === id)
+  const users = app.locals.users
+  const id = parseInt(request.params.id);
+  const currentUser = users.find(user => user.id == id)
+
+  if (!currentUser) {
+    return response.sendStatus(404)
+  }
 
   response.status(200).json(currentUser);
   });
-});
 
 app.locals.crops = [
   {
