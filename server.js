@@ -13,6 +13,20 @@ app.listen(app.get('port'), () => {
     http://localhost:${app.get('port')}`);
 });
 
+app.get(`/api/v1/crops`, (request, response) => {
+  const crops = app.locals.crops;
+
+  response.status(200).json({ crops });
+})
+
+app.get(`/api/v1/users/:id`, (request, response) => {
+  const { id } = request.params;
+  const currentUser = app.locals.users.find(user => user.id === id)
+
+  response.status(200).json(currentUser);
+  });
+});
+
 app.locals.crops = [
   {
     id: 1,
