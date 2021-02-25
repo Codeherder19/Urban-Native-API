@@ -296,7 +296,44 @@ app.locals.crops = [
     height: 1000,
     daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1a6e444d62e0004000006.jpg?1504814816`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1a6e844d62e0004000007.jpg?1504814821`]
-  }
+  },
+  {
+    id: 21,
+    key: Date.now(),
+    name: `Nectarine`,
+    description: `The nectarine is a deciduous tree that produces stone, or drupe, fruits. It is actually the same species as a Peach, it just has a recessive gene that makes it's skin smooth rather than fuzzy. Both fruits belong to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach and nectarine are classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Most cultivars require 500 hours of chilling at temperatures between 0 and 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach or nectarine tree of another variety with the same bloom period within 50 feet. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 365,
+    rowSpacing: 300,
+    height: 1000,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1b2a544d62e0004000008.jpg?1504817824`]
+  },
+  {
+    id: 22,
+    key: Date.now(),
+    name: `Apricot`,
+    description: `The apricot is a small fruiting tree in the genus Prunus (of which other stone fruits like peaches, plums and cherries are also members). It is a section of the Prunus (Plum) subgenus. The apricot tree has a dense, spreading canopy with white to pinkish flowers. It's fruit are yellow to orange, smaller than peaches, and have smooth or velvety skin. The apricot can tolerate winter temperatures down to −30 °C, making it slightly more cold-hardy than peach trees. However, it is susceptible to spring frosts killing the blooms because it tends to flower very early. Some varieties are self-pollinating, but all apricot trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 450,
+    rowSpacing: 450,
+    height: 450,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939e8f401f8790004000008.jpg?1496967407`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939e8fc01f8790004000009.jpg?1496967413`]
+  },
+  {
+    id: 23,
+    key: Date.now(),
+    name: `Pear`,
+    description: `Pears are fruiting trees or shrubs in the Pyrus genus, in the family Rosaceae. There are approximately 3000 varieties worldwide, and they are commonly divided into two major groups: European and Asian. European Pears are wider at the bottom and taper at the top. Asian Pears are shaped more like apples, and have a different texture and flavor. Most pear species are deciduous, but some in southeast Asia are evergreen. Pears are generally cold-hardy, surviving winter temperatures between -25 to -40°C. In the spring, they produce white (and sometimes, yellow or pink) flowers with 5 petals. Like apples, pears are propagated by grafting the selected variety onto a rootstock. `,
+    sunReqs: `Full Sun`,
+    spread: null,
+    rowSpacing: null,
+    height: null,
+    daysToMaturity: `More growing information is available in our resources section`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
+  },
+
 ]
 
 app.locals.users = [
