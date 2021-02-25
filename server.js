@@ -271,6 +271,20 @@ app.locals.crops = [
     Pull the plants and cut off the root. If the tops are to be used, wash and place them in plastic bags in the refrigerator for 1 or 2 days. 
     Roots will keep 1 to 2 weeks in plastic bags in the refrigerator.`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b747ffe8d7500030002ef.jpg?1466659964`]
+  },
+  {
+    id: 13,
+    name: `Spinach`,
+    description: `Spinach is an annual plant whose deep green leaves are eaten as a vegetable. It grows best in cooler weather. It can be eaten raw or cooked.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 15cm when seedlings are 3cm high`,
+    spread: 20,
+    rowSpacing: 30,
+    height: 15,
+    daysToMaturity: `Harvest spinach when plants are 6 to 8 inches tall. Pull up the entire plant in the spring, since it stops producing in hot weather. 
+    For the fall crop, clip the leaves just above the crown about 1 to 2 inches above ground level. 
+    Water and fertilize lightly and the plants will continue growing`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591defc984b25a00040000ba.jpg?1495134119`]
   }
 ]
 
