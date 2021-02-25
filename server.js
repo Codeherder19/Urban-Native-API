@@ -235,6 +235,26 @@ app.locals.crops = [
     as they grow. Finish by mulching each plant with a few inches of straw or compost. This helps keep the
     roots moist, and the plants protected from temperature swings.`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59f386eb33d94e000400000a.jpg?1509132007`]
+  },
+  {
+    id: 11,
+    name: `Turnip`,
+    description: `Turnips are smooth, round root vegetables 5-20 cm in diameter. 
+    They are often white below the soil line and bright purple or green above. 
+    Turnips usually have white flesh and a slightly sweet and bitter taste, similar to cabbage. 
+    The edible foliage tastes similar to mustard greens. Turnips are a cool-weather crop and do best as spring or fall plantings.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 10cm when seedlings are 3cm tall`,
+    spread: 30,
+    rowSpacing: 10,
+    height: 30,
+    daysToMaturity: `Most turnip varieties produce greens in 40 days. 
+    Turnip roots generally take 50 to 60 days to produce. 
+    Harvest turnip greens by pulling the entire plant when the leaves are 4 to 6 inches long Turnip roots can be harvested when they are 2 to 2½ inches in diameter. 
+    If left longer they will get tough and stringy. The ideal size of turnip roots harvested for bunching is 2 inches in diameter.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cf353eaea93d0004000018.jpg?1489974585`]
+  },
+  {
   }
 ]
 
