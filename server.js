@@ -255,6 +255,22 @@ app.locals.crops = [
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cf353eaea93d0004000018.jpg?1489974585`]
   },
   {
+    id: 12,
+    name: `Beets`,
+    description: `Typically grown for its round or cylindrical taproot, the leaves of the beet are also edible. 
+    Leaves resemble Swiss chard on a smaller scale and are good sautéed. 
+    The taproot, or beet, ranges in color from deep red to gold, orange, or white and red striped. 
+    The beet has a delicious, earthy flavor with a touch of sweetness to it when roasted.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed into soil. Thin to 7cm apart when seedlings are 5cm tall.`,
+    spread: 10,
+    rowSpacing: 10,
+    height: 25,
+    daysToMaturity: `7 to 8 weeks. Young, tender tops often have a mild quality, but the greens can be used until they get large and strong flavored. 
+    Young plants can be cooked with the root and top together, or you can use the root alone when it is the size of a golf ball or larger.
+    Pull the plants and cut off the root. If the tops are to be used, wash and place them in plastic bags in the refrigerator for 1 or 2 days. 
+    Roots will keep 1 to 2 weeks in plastic bags in the refrigerator.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b747ffe8d7500030002ef.jpg?1466659964`]
   }
 ]
 
