@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const express = require('express');
 const app = express()
 const cors = require('cors');
@@ -235,7 +236,104 @@ app.locals.crops = [
     as they grow. Finish by mulching each plant with a few inches of straw or compost. This helps keep the
     roots moist, and the plants protected from temperature swings.`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59f386eb33d94e000400000a.jpg?1509132007`]
-  }
+  },
+  {
+    id: 16,
+    key: Date.now(),
+    name: `Apple`,
+    description: `The apple is a deciduous tree in the Rose family grown for it's sweet fruit. The apple originated in Central Asia and has spread across the world. There are now over 7,500 cultivars bred for a variety of climates and characteristics. Apples are propagated through grafting because seeds do not breed true.`,
+    sunReqs: `Full Sun`,
+    spread: 500,
+    rowSpacing: null,
+    height: 300,
+    daysToMaturity: 200,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59f386eb33d94e000400000a.jpg?1509132007`]
+  },
+  {
+    id: 17,
+    key: Date.now(),
+    name: `Strawberry`,
+    description: "Strawberries are a hybrid species of the genus Fragaria that produce sweet, bright red fruits. \n\nThere are three main types of strawberries: \n\n1) summer-fruiting: produce a single, large crop of fruit the year after planting.  All types of strawberries begin to produce fewer and less sweet fruit once they are two years or older. Because strawberries are a hybrid, seeds will not breed true. Strawberries are predominantly propagated using bare root plugs or crowns or dividing runners. Make sure not to bury the crown when transplanting plugs.",
+    sunReqs: `Full Sun`,
+    spread: 30,
+    rowSpacing: 35,
+    height: 30,
+    daysToMaturity: `To grow, transplant plugs or crowns in early spring in rows spaced at least 120cm apart. Pinch off all flowers the first season and train the plant's runners, pressing them into the soil 15-22cm apart from the mother plant. Mulch with straw or pine needles in the fall when the plants have died back. When the plants start to grow back in the spring, move the mulch aside. After harvest the second season, set a lawnmower to about 10cm high and mow, being sure not to damage crowns.\n\n The other two types are \n\n2) Ever-bearing and 3) Day Neutral, both of which send out less runners and bear several crops of smaller fruit throughout the season. These two types can be grown using raised beds about 20cm high and 60cm wide. Transplant crowns or plugs in staggered double rows, about 30cm apart. Remove runners and flowers until July of the first year to give the roots time to develop, and then allow plants to produce fruit.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dc6103732390003730100.jpg?1428014606`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5a2091bd4ef55e0004000007.jpg?1512083897`]
+  },
+  {
+    id: 18,
+    key: Date.now(),
+    name: `Raspberry`,
+    description: `Raspberries are a perennial plant with erect to trailing canes that often have spines or thorns. The plants produce fruit in their second year of growth, but some \"primocane\" varieties exist that flower and fruit their first year. Canes are light green to blue in hue with alternate, compound leaves. Fruits are sweet, many-seeded, and hollow.`,
+    sunReqs: `Partial Sun`,
+    spread: 75, 
+    rowSpacing: 200,
+    height: 150,
+    daysToMaturity: `Raspberry bush growth depends on cultivar and environment, but most varieties should be ready for harvest within 16 to 18 months after the initial planting. Bushes planted in U.S. Department of Agriculture plant hardiness zones 8 to 10 can tolerate some shade, but they thrive in full sunlight and well-draining soil with pH of 5.6 to 6.2. Hot, dry, windy weather can damage fruiting canes. Raspberry primocanes may grow 8 or 9 feet high during the spring and summer.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dc30837323900036b0100.jpg?1428013830`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8fa8fe8d75000300043f.jpg?1466666918`]
+  },
+  {
+    id: 19,
+    key: Date.now(),
+    name: `Plum`,
+    description: `The plum is a fruit of the subgenus Prunus of the genus Prunus. The Prunus genus also includes the cherry, apricot, almond, and peach. Within the subgenus Prunus, there are many species. The two largest species groups are European Plums (Prunus domestica) and Japanese Plums (Prunus salicina). Apricots are also classified as a section of the Prunus subgenus. The skin of plums can be coated with a waxy bloom or it can be shiny. Plums can be purple, green, yellow, or red. Shape varies from oval to globular. Plums can be dried to make prunes. European Plums require 800-900 hours of chilling during the winter, Japanese Plums require 300-500. Some varieties are self-pollinating, but all plum trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 500,
+    rowSpacing: 500,
+    height: 500,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 3-6 years of planting`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4af6c6130650002060000.jpg?1421127529`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1dc3044d62e0004000009.jpg?1504828462`]
+  },
+  {
+    id: 20,
+    key: Date.now(),
+    name: `Peach`,
+    description: `The peach tree is a deciduous tree native to Northwest China that produces stone, or drupe, fruits. It belongs to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach is classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Peaches and nectarines are the same species - nectarines have a recessive gene that makes their skin smooth rather than fuzzy. Cultivated peaches are divided into two groups: clingstones and freestones, depending on whether the flesh sticks to the stone or not. Peaches can have white or yellow fuzzy skin. Yellow peaches usually have an acidic tang coupled with sweetness. White peaches are very sweet with little acidity. Most cultivars require 500 hours of chilling around 0 to 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach tree of another variety with the same bloom period within 50 feet. Peaches should be thinned to 7-12cm apart when fruit are 2-3cm in diameter to increase mature fruit size. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 365,
+    rowSpacing: 300,
+    height: 1000,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1a6e444d62e0004000006.jpg?1504814816`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1a6e844d62e0004000007.jpg?1504814821`]
+  },
+  {
+    id: 21,
+    key: Date.now(),
+    name: `Nectarine`,
+    description: `The nectarine is a deciduous tree that produces stone, or drupe, fruits. It is actually the same species as a Peach, it just has a recessive gene that makes it's skin smooth rather than fuzzy. Both fruits belong to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach and nectarine are classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Most cultivars require 500 hours of chilling at temperatures between 0 and 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach or nectarine tree of another variety with the same bloom period within 50 feet. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 365,
+    rowSpacing: 300,
+    height: 1000,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59b1b2a544d62e0004000008.jpg?1504817824`]
+  },
+  {
+    id: 22,
+    key: Date.now(),
+    name: `Apricot`,
+    description: `The apricot is a small fruiting tree in the genus Prunus (of which other stone fruits like peaches, plums and cherries are also members). It is a section of the Prunus (Plum) subgenus. The apricot tree has a dense, spreading canopy with white to pinkish flowers. It's fruit are yellow to orange, smaller than peaches, and have smooth or velvety skin. The apricot can tolerate winter temperatures down to −30 °C, making it slightly more cold-hardy than peach trees. However, it is susceptible to spring frosts killing the blooms because it tends to flower very early. Some varieties are self-pollinating, but all apricot trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
+    sunReqs: `Full Sun`,
+    spread: 450,
+    rowSpacing: 450,
+    height: 450,
+    daysToMaturity: `Depending on the size chosen, the tree will bear fruit within 2-4 years of planting.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939e8f401f8790004000008.jpg?1496967407`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939e8fc01f8790004000009.jpg?1496967413`]
+  },
+  {
+    id: 23,
+    key: Date.now(),
+    name: `Pear`,
+    description: `Pears are fruiting trees or shrubs in the Pyrus genus, in the family Rosaceae. There are approximately 3000 varieties worldwide, and they are commonly divided into two major groups: European and Asian. European Pears are wider at the bottom and taper at the top. Asian Pears are shaped more like apples, and have a different texture and flavor. Most pear species are deciduous, but some in southeast Asia are evergreen. Pears are generally cold-hardy, surviving winter temperatures between -25 to -40°C. In the spring, they produce white (and sometimes, yellow or pink) flowers with 5 petals. Like apples, pears are propagated by grafting the selected variety onto a rootstock. `,
+    sunReqs: `Full Sun`,
+    spread: null,
+    rowSpacing: null,
+    height: null,
+    daysToMaturity: `More growing information is available in our resources section`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
+  },
+
 ]
 
 app.locals.users = [
