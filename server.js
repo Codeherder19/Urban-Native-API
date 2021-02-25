@@ -42,7 +42,6 @@ app.get(`/api/v1/users/:id`, (request, response) => {
 app.locals.crops = [
   {
     id: 1,
-    key: Date.now(),
     name: 'Blackberries',
     description: `Deeply colored, sweet, clustered berries. The blackberry
     plant is a perennial plant that bears biennial stems or canes. The plant
@@ -61,7 +60,6 @@ app.locals.crops = [
   },
   {
     id: 2,
-    key: Date.now(),
     name: `Cucumber`,
     description: `Cucumbers are the fruit of a creeping vine. They are generally oblong and have a high water content.
       Their edible skin is often green but can also be yellow, white, or striped. The vine can be left to spread along
@@ -82,7 +80,6 @@ app.locals.crops = [
   },
   {
     id: 3,
-    key: Date.now(),
     name: `Kale`,
     description:
      `Kale is a cultivar of the species Brassica oleracea. It has green or purple leaves that
@@ -238,6 +235,84 @@ app.locals.crops = [
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/59f386eb33d94e000400000a.jpg?1509132007`]
   },
   {
+    id: 11,
+    name: `Turnip`,
+    description: `Turnips are smooth, round root vegetables 5-20 cm in diameter. 
+    They are often white below the soil line and bright purple or green above. 
+    Turnips usually have white flesh and a slightly sweet and bitter taste, similar to cabbage. 
+    The edible foliage tastes similar to mustard greens. Turnips are a cool-weather crop and do best as spring or fall plantings.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 10cm when seedlings are 3cm tall`,
+    spread: 30,
+    rowSpacing: 10,
+    height: 30,
+    daysToMaturity: `Most turnip varieties produce greens in 40 days. 
+    Turnip roots generally take 50 to 60 days to produce. 
+    Harvest turnip greens by pulling the entire plant when the leaves are 4 to 6 inches long Turnip roots can be harvested when they are 2 to 2½ inches in diameter. 
+    If left longer they will get tough and stringy. The ideal size of turnip roots harvested for bunching is 2 inches in diameter.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cf353eaea93d0004000018.jpg?1489974585`]
+  },
+  {
+    id: 12,
+    name: `Beets`,
+    description: `Typically grown for its round or cylindrical taproot, the leaves of the beet are also edible. 
+    Leaves resemble Swiss chard on a smaller scale and are good sautéed. 
+    The taproot, or beet, ranges in color from deep red to gold, orange, or white and red striped. 
+    The beet has a delicious, earthy flavor with a touch of sweetness to it when roasted.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed into soil. Thin to 7cm apart when seedlings are 5cm tall.`,
+    spread: 10,
+    rowSpacing: 10,
+    height: 25,
+    daysToMaturity: `7 to 8 weeks. Young, tender tops often have a mild quality, but the greens can be used until they get large and strong flavored. 
+    Young plants can be cooked with the root and top together, or you can use the root alone when it is the size of a golf ball or larger.
+    Pull the plants and cut off the root. If the tops are to be used, wash and place them in plastic bags in the refrigerator for 1 or 2 days. 
+    Roots will keep 1 to 2 weeks in plastic bags in the refrigerator.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b747ffe8d7500030002ef.jpg?1466659964`]
+  },
+  {
+    id: 13,
+    name: `Spinach`,
+    description: `Spinach is an annual plant whose deep green leaves are eaten as a vegetable. It grows best in cooler weather. It can be eaten raw or cooked.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 15cm when seedlings are 3cm high`,
+    spread: 20,
+    rowSpacing: 30,
+    height: 15,
+    daysToMaturity: `Harvest spinach when plants are 6 to 8 inches tall. Pull up the entire plant in the spring, since it stops producing in hot weather. 
+    For the fall crop, clip the leaves just above the crown about 1 to 2 inches above ground level. 
+    Water and fertilize lightly and the plants will continue growing`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591defc984b25a00040000ba.jpg?1495134119`]
+  },
+  {
+    id: 14,
+    name: `Lettuce`,
+    description: `Lettuce is a cool weather crop and high temperatures will impede germination and/or cause the plant to bolt (go to seed quickly). 
+    Some hybrid cultivars have been bred to be more heat-resistant.`,
+    sunReqs: `Partial Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 20cm when seedlings are 3cm tall`,
+    spread: 15,
+    rowSpacing: 40,
+    height: 20,
+    daysToMaturity: `Once leaves begin to appear and they are about 4 inches (10 cm.) long, you can begin harvesting leaf lettuce. 
+    Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch above the crown of the plant. 
+    If you cut into or below the crown, the plant will probably die, so be careful.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b87bafe8d750003000424.jpg?1466664889`]
+  },
+  {
+    id: 15,
+    name: `Peas`,
+    description: `A pea is a most commonly green, occasionally golden yellow, or infrequently purple pod-shaped vegetable, widely grown as a cool-season vegetable crop.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors`,
+    spread: 3,
+    rowSpacing: 30,
+    height: 60,
+    daysToMaturity: `Harvest 3 weeks after the flowers appear. Shelling peas are ready when the pods have swelled and are nearly cylindrical shape. 
+    Edible pod peas are ready when they are 2-3 inches long, before the seeds begin to swell.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8edefe8d75000300043c.jpg?1466666716`]
+  },
+  {
     id: 16,
     key: Date.now(),
     name: `Apple`,
@@ -332,8 +407,7 @@ app.locals.crops = [
     height: null,
     daysToMaturity: `More growing information is available in our resources section`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
-  },
-
+  }
 ]
 
 app.locals.users = [
