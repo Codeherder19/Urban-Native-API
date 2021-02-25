@@ -285,6 +285,21 @@ app.locals.crops = [
     For the fall crop, clip the leaves just above the crown about 1 to 2 inches above ground level. 
     Water and fertilize lightly and the plants will continue growing`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591defc984b25a00040000ba.jpg?1495134119`]
+  },
+  {
+    id: 14,
+    name: `Lettuce`,
+    description: `Lettuce is a cool weather crop and high temperatures will impede germination and/or cause the plant to bolt (go to seed quickly). 
+    Some hybrid cultivars have been bred to be more heat-resistant.`,
+    sunReqs: `Partial Sun`,
+    sowingMethod: `Direct seed outdoors, thin to 20cm when seedlings are 3cm tall`,
+    spread: 15,
+    rowSpacing: 40,
+    height: 20,
+    daysToMaturity: `Once leaves begin to appear and they are about 4 inches (10 cm.) long, you can begin harvesting leaf lettuce. 
+    Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch above the crown of the plant. 
+    If you cut into or below the crown, the plant will probably die, so be careful.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b87bafe8d750003000424.jpg?1466664889`]
   }
 ]
 
