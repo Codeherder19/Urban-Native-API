@@ -300,6 +300,19 @@ app.locals.crops = [
     Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch above the crown of the plant. 
     If you cut into or below the crown, the plant will probably die, so be careful.`,
     photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b87bafe8d750003000424.jpg?1466664889`]
+  },
+  {
+    id: 15,
+    name: `Peas`,
+    description: `A pea is a most commonly green, occasionally golden yellow, or infrequently purple pod-shaped vegetable, widely grown as a cool-season vegetable crop.`,
+    sunReqs: `Full Sun`,
+    sowingMethod: `Direct seed outdoors`,
+    spread: 3,
+    rowSpacing: 30,
+    height: 60,
+    daysToMaturity: `Harvest 3 weeks after the flowers appear. Shelling peas are ready when the pods have swelled and are nearly cylindrical shape. 
+    Edible pod peas are ready when they are 2-3 inches long, before the seeds begin to swell.`,
+    photoLinks: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8edefe8d75000300043c.jpg?1466666716`]
   }
 ]
 
