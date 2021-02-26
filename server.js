@@ -5,7 +5,7 @@ const cors = require('cors');
 
 app.use(cors());
 
-app.set('port', process.env.port || 3000);
+app.set('port', process.env.port || 3001);
 app.locals.title = 'Urban Native';
 
 app.get('/', (request, response) => {
