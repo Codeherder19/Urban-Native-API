@@ -101,7 +101,6 @@ app.locals.crops = [
   },
   {
     id: 4,
-    key: Date.now(),
     name: `Broccoli`,
     description: `Broccoli has large flower heads known as "crowns" that are green to blue-green
     in color, grouped tightly together atop a thick stem, and surrounded by leaves. Broccoli
@@ -118,7 +117,6 @@ app.locals.crops = [
   },
   {
     id: 5,
-    key: Date.now(),
     name: `Carrots`,
     description: `The carrot is a root vegetable. It is usually orange in color, but some cultivars are purple,
     black, red, white, and yellow. The most commonly eaten part of the plant is the taproot, but the greens
@@ -136,7 +134,6 @@ app.locals.crops = [
   },
   {
     id: 6,
-    key: Date.now(),
     name: `Cherry Tomatoes`,
     description: `Cherry tomatoes range in size from a thumbtip to the size of a golf ball.
     Their shape ranges from spherical to slightly oblong to pointed at the bottom.
@@ -157,7 +154,6 @@ app.locals.crops = [
   },
   {
     id: 7,
-    key: Date.now(),
     name: `Brussels Sprouts`,
     description: `Brussels sprouts grow on the sides of stalks up to 91cm tall.
     The stalks are covered with leaves and the sprouts look like miniature cabbages.
@@ -174,7 +170,6 @@ app.locals.crops = [
   },
   {
     id: 8,
-    key: Date.now(),
     name: `Potatoes`,
     description: `Potatoes are starchy root vegetables in the Solanaceae, or Nightshade, family,
     which also includes tomatoes, eggplants, and peppers. They originated in South America,
@@ -195,7 +190,6 @@ app.locals.crops = [
   },
   {
     id: 9,
-    key: Date.now(),
     name: `Cauliflower`,
     description: `Cauliflower is a vegetable in the Brassicaceae family. The solid, firm head
     resembles that of broccoli and is usually white, but can also be yellow, purple, or green
@@ -215,7 +209,6 @@ app.locals.crops = [
   },
   {
     id: 10,
-    key: Date.now(),
     name: `Shishito Pepper`,
     description: `Shishito peppers are mild, thin-walled, slightly sweet peppers
     native to East Asia. They are small, slender peppers, usually 5-10cm long, with
@@ -314,7 +307,6 @@ app.locals.crops = [
   },
   {
     id: 16,
-    key: Date.now(),
     name: `Apple`,
     description: `The apple is a deciduous tree in the Rose family grown for it's sweet fruit. The apple originated in Central Asia and has spread across the world. There are now over 7,500 cultivars bred for a variety of climates and characteristics. Apples are propagated through grafting because seeds do not breed true.`,
     sunReqs: `Full Sun`,
@@ -326,7 +318,6 @@ app.locals.crops = [
   },
   {
     id: 17,
-    key: Date.now(),
     name: `Strawberry`,
     description: "Strawberries are a hybrid species of the genus Fragaria that produce sweet, bright red fruits. \n\nThere are three main types of strawberries: \n\n1) summer-fruiting: produce a single, large crop of fruit the year after planting.  All types of strawberries begin to produce fewer and less sweet fruit once they are two years or older. Because strawberries are a hybrid, seeds will not breed true. Strawberries are predominantly propagated using bare root plugs or crowns or dividing runners. Make sure not to bury the crown when transplanting plugs.",
     sunReqs: `Full Sun`,
@@ -338,7 +329,6 @@ app.locals.crops = [
   },
   {
     id: 18,
-    key: Date.now(),
     name: `Raspberry`,
     description: `Raspberries are a perennial plant with erect to trailing canes that often have spines or thorns. The plants produce fruit in their second year of growth, but some \"primocane\" varieties exist that flower and fruit their first year. Canes are light green to blue in hue with alternate, compound leaves. Fruits are sweet, many-seeded, and hollow.`,
     sunReqs: `Partial Sun`,
@@ -350,7 +340,6 @@ app.locals.crops = [
   },
   {
     id: 19,
-    key: Date.now(),
     name: `Plum`,
     description: `The plum is a fruit of the subgenus Prunus of the genus Prunus. The Prunus genus also includes the cherry, apricot, almond, and peach. Within the subgenus Prunus, there are many species. The two largest species groups are European Plums (Prunus domestica) and Japanese Plums (Prunus salicina). Apricots are also classified as a section of the Prunus subgenus. The skin of plums can be coated with a waxy bloom or it can be shiny. Plums can be purple, green, yellow, or red. Shape varies from oval to globular. Plums can be dried to make prunes. European Plums require 800-900 hours of chilling during the winter, Japanese Plums require 300-500. Some varieties are self-pollinating, but all plum trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sunReqs: `Full Sun`,
@@ -362,7 +351,6 @@ app.locals.crops = [
   },
   {
     id: 20,
-    key: Date.now(),
     name: `Peach`,
     description: `The peach tree is a deciduous tree native to Northwest China that produces stone, or drupe, fruits. It belongs to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach is classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Peaches and nectarines are the same species - nectarines have a recessive gene that makes their skin smooth rather than fuzzy. Cultivated peaches are divided into two groups: clingstones and freestones, depending on whether the flesh sticks to the stone or not. Peaches can have white or yellow fuzzy skin. Yellow peaches usually have an acidic tang coupled with sweetness. White peaches are very sweet with little acidity. Most cultivars require 500 hours of chilling around 0 to 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach tree of another variety with the same bloom period within 50 feet. Peaches should be thinned to 7-12cm apart when fruit are 2-3cm in diameter to increase mature fruit size. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sunReqs: `Full Sun`,
@@ -374,7 +362,6 @@ app.locals.crops = [
   },
   {
     id: 21,
-    key: Date.now(),
     name: `Nectarine`,
     description: `The nectarine is a deciduous tree that produces stone, or drupe, fruits. It is actually the same species as a Peach, it just has a recessive gene that makes it's skin smooth rather than fuzzy. Both fruits belong to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach and nectarine are classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Most cultivars require 500 hours of chilling at temperatures between 0 and 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach or nectarine tree of another variety with the same bloom period within 50 feet. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sunReqs: `Full Sun`,
@@ -386,7 +373,6 @@ app.locals.crops = [
   },
   {
     id: 22,
-    key: Date.now(),
     name: `Apricot`,
     description: `The apricot is a small fruiting tree in the genus Prunus (of which other stone fruits like peaches, plums and cherries are also members). It is a section of the Prunus (Plum) subgenus. The apricot tree has a dense, spreading canopy with white to pinkish flowers. It's fruit are yellow to orange, smaller than peaches, and have smooth or velvety skin. The apricot can tolerate winter temperatures down to −30 °C, making it slightly more cold-hardy than peach trees. However, it is susceptible to spring frosts killing the blooms because it tends to flower very early. Some varieties are self-pollinating, but all apricot trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sunReqs: `Full Sun`,
@@ -398,7 +384,6 @@ app.locals.crops = [
   },
   {
     id: 23,
-    key: Date.now(),
     name: `Pear`,
     description: `Pears are fruiting trees or shrubs in the Pyrus genus, in the family Rosaceae. There are approximately 3000 varieties worldwide, and they are commonly divided into two major groups: European and Asian. European Pears are wider at the bottom and taper at the top. Asian Pears are shaped more like apples, and have a different texture and flavor. Most pear species are deciduous, but some in southeast Asia are evergreen. Pears are generally cold-hardy, surviving winter temperatures between -25 to -40°C. In the spring, they produce white (and sometimes, yellow or pink) flowers with 5 petals. Like apples, pears are propagated by grafting the selected variety onto a rootstock. `,
     sunReqs: `Full Sun`,
