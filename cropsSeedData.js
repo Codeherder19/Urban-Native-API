@@ -363,17 +363,17 @@ const cropsSeedData = [
     days_to_maturity: `90-120 days to mature after seeds are planted, depending on the variety. Pumpkins are ripe when they are fully colored and have a hard rind and woody stem.`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4aa886130650002020000.jpg?1421126278`]
   },
-  // {
-  //   name: `Sweet Potato`,
-  //   description: `The sweet potato is a large, starchy, tuberous root. The tuber is long and tapered and has yellow, orange, red, brown, purple, or beige skin. It's flesh can be white, red, pink, violet, yellow, orange, or purple. Sweet potato cultivars with white or pale yellow flesh are not as sweet and moist as those with red, pink or orange flesh. The heart-shaped leaves and vines are sometimes eaten as greens when the plants are young, but eating the leaves interferes with the growth of the tuber underground. The sweet potato is not related to the potato or the yam.`,
-  //   sun_reqs: `Full Sun`,
-  //   sowing_method: `Direct seed indoors (and transplant outside after seedlings are hardened off) or outdoors`,
-  //   spread: 91,
-  //   row_spacing: 213,
-  //   height: 61,
-  //   days_to_maturity: `90-120 days to mature after seeds are planted, depending on the variety. Pumpkins are ripe when they are fully colored and have a hard rind and woody stem.`,
-  //   photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4aa886130650002020000.jpg?1421126278`]
-  // }
+  {
+    name: `Sweet Potato`,
+    description: `The sweet potato is a large, starchy, tuberous root. The tuber is long and tapered and has yellow, orange, red, brown, purple, or beige skin. It's flesh can be white, red, pink, violet, yellow, orange, or purple. Sweet potato cultivars with white or pale yellow flesh are not as sweet and moist as those with red, pink or orange flesh. The heart-shaped leaves and vines are sometimes eaten as greens when the plants are young, but eating the leaves interferes with the growth of the tuber underground. The sweet potato is not related to the potato or the yam.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Make holes 6 inches deep and 12 inches apart. Bury slips up to the top leaves, press the soil down gently but firmly, and water well.`,
+    spread: 100,
+    row_spacing: 35,
+    height: 25,
+    days_to_maturity: `Mature in 90 to 170 days and they're extremely frost sensitive.`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591e0a13dfdcf50004000000.jpg?1495140873`]
+  }
 ]
 
 module.exports = cropsSeedData;
