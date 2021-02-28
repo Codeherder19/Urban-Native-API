@@ -1,7 +1,6 @@
 /* eslint-disable max-len */
 const cropsSeedData = [
   {
-
     name: 'Blackberries',
     description: `Deeply colored, sweet, clustered berries. The blackberry
     plant is a perennial plant that bears biennial stems or canes. The plant
@@ -19,7 +18,6 @@ const cropsSeedData = [
     photo_links: ["https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/551dc7793732390003750100.jpg?1428014965"]
   },
   {
-
     name: `Cucumber`,
     description: `Cucumbers are the fruit of a creeping vine. They are generally oblong and have a high water content.
       Their edible skin is often green but can also be yellow, white, or striped. The vine can be left to spread along
@@ -39,7 +37,6 @@ const cropsSeedData = [
     photo_links: [`https://www.thespruce.com/thmb/otEJQ4c7WgHNKUVJNFsTr5Opo4A=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/companion-plants-for-cucumbers-2540044-16-d691b5c0f19f44a8b1303e805be9c99d.jpg`]
   },
   {
-
     name: `Kale`,
     description:
      `Kale is a cultivar of the species Brassica oleracea. It has green or purple leaves that
@@ -60,7 +57,6 @@ const cropsSeedData = [
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/55b6b7ce6465380003910200.jpg?1438037945`]
   },
   {
-
     name: `Broccoli`,
     description: `Broccoli has large flower heads known as "crowns" that are green to blue-green
     in color, grouped tightly together atop a thick stem, and surrounded by leaves. Broccoli
@@ -183,35 +179,35 @@ const cropsSeedData = [
   },
   {
     name: `Turnip`,
-    description: `Turnips are smooth, round root vegetables 5-20 cm in diameter. 
-    They are often white below the soil line and bright purple or green above. 
-    Turnips usually have white flesh and a slightly sweet and bitter taste, similar to cabbage. 
+    description: `Turnips are smooth, round root vegetables 5-20 cm in diameter.
+    They are often white below the soil line and bright purple or green above.
+    Turnips usually have white flesh and a slightly sweet and bitter taste, similar to cabbage.
     The edible foliage tastes similar to mustard greens. Turnips are a cool-weather crop and do best as spring or fall plantings.`,
     sun_reqs: `Full Sun`,
     sowing_method: `Direct seed outdoors, thin to 10cm when seedlings are 3cm tall`,
     spread: 30,
     row_spacing: 10,
     height: 30,
-    days_to_maturity: `Most turnip varieties produce greens in 40 days. 
-    Turnip roots generally take 50 to 60 days to produce. 
-    Harvest turnip greens by pulling the entire plant when the leaves are 4 to 6 inches long Turnip roots can be harvested when they are 2 to 2½ inches in diameter. 
+    days_to_maturity: `Most turnip varieties produce greens in 40 days.
+    Turnip roots generally take 50 to 60 days to produce.
+    Harvest turnip greens by pulling the entire plant when the leaves are 4 to 6 inches long Turnip roots can be harvested when they are 2 to 2½ inches in diameter.
     If left longer they will get tough and stringy. The ideal size of turnip roots harvested for bunching is 2 inches in diameter.`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58cf353eaea93d0004000018.jpg?1489974585`]
   },
   {
     name: `Beets`,
-    description: `Typically grown for its round or cylindrical taproot, the leaves of the beet are also edible. 
-    Leaves resemble Swiss chard on a smaller scale and are good sautéed. 
-    The taproot, or beet, ranges in color from deep red to gold, orange, or white and red striped. 
+    description: `Typically grown for its round or cylindrical taproot, the leaves of the beet are also edible.
+    Leaves resemble Swiss chard on a smaller scale and are good sautéed.
+    The taproot, or beet, ranges in color from deep red to gold, orange, or white and red striped.
     The beet has a delicious, earthy flavor with a touch of sweetness to it when roasted.`,
     sun_reqs: `Full Sun`,
     sowing_method: `Direct seed into soil. Thin to 7cm apart when seedlings are 5cm tall.`,
     spread: 10,
     row_spacing: 10,
     height: 25,
-    days_to_maturity: `7 to 8 weeks. Young, tender tops often have a mild quality, but the greens can be used until they get large and strong flavored. 
+    days_to_maturity: `7 to 8 weeks. Young, tender tops often have a mild quality, but the greens can be used until they get large and strong flavored.
     Young plants can be cooked with the root and top together, or you can use the root alone when it is the size of a golf ball or larger.
-    Pull the plants and cut off the root. If the tops are to be used, wash and place them in plastic bags in the refrigerator for 1 or 2 days. 
+    Pull the plants and cut off the root. If the tops are to be used, wash and place them in plastic bags in the refrigerator for 1 or 2 days.
     Roots will keep 1 to 2 weeks in plastic bags in the refrigerator.`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b747ffe8d7500030002ef.jpg?1466659964`]
   },
@@ -223,22 +219,22 @@ const cropsSeedData = [
     spread: 20,
     row_spacing: 30,
     height: 15,
-    days_to_maturity: `Harvest spinach when plants are 6 to 8 inches tall. Pull up the entire plant in the spring, since it stops producing in hot weather. 
-    For the fall crop, clip the leaves just above the crown about 1 to 2 inches above ground level. 
+    days_to_maturity: `Harvest spinach when plants are 6 to 8 inches tall. Pull up the entire plant in the spring, since it stops producing in hot weather.
+    For the fall crop, clip the leaves just above the crown about 1 to 2 inches above ground level.
     Water and fertilize lightly and the plants will continue growing`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/591defc984b25a00040000ba.jpg?1495134119`]
   },
   {
     name: `Lettuce`,
-    description: `Lettuce is a cool weather crop and high temperatures will impede germination and/or cause the plant to bolt (go to seed quickly). 
+    description: `Lettuce is a cool weather crop and high temperatures will impede germination and/or cause the plant to bolt (go to seed quickly).
     Some hybrid cultivars have been bred to be more heat-resistant.`,
     sun_reqs: `Partial Sun`,
     sowing_method: `Direct seed outdoors, thin to 20cm when seedlings are 3cm tall`,
     spread: 15,
     row_spacing: 40,
     height: 20,
-    days_to_maturity: `Once leaves begin to appear and they are about 4 inches (10 cm.) long, you can begin harvesting leaf lettuce. 
-    Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch above the crown of the plant. 
+    days_to_maturity: `Once leaves begin to appear and they are about 4 inches (10 cm.) long, you can begin harvesting leaf lettuce.
+    Simply snip either single outer leaves or grab a bunch of them and cut them with shears or scissors an inch above the crown of the plant.
     If you cut into or below the crown, the plant will probably die, so be careful.`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b87bafe8d750003000424.jpg?1466664889`]
   },
@@ -250,7 +246,7 @@ const cropsSeedData = [
     spread: 3,
     row_spacing: 30,
     height: 60,
-    days_to_maturity: `Harvest 3 weeks after the flowers appear. Shelling peas are ready when the pods have swelled and are nearly cylindrical shape. 
+    days_to_maturity: `Harvest 3 weeks after the flowers appear. Shelling peas are ready when the pods have swelled and are nearly cylindrical shape.
     Edible pod peas are ready when they are 2-3 inches long, before the seeds begin to swell.`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8edefe8d75000300043c.jpg?1466666716`]
   },
@@ -283,7 +279,7 @@ const cropsSeedData = [
     description: `Raspberries are a perennial plant with erect to trailing canes that often have spines or thorns. The plants produce fruit in their second year of growth, but some \"primocane\" varieties exist that flower and fruit their first year. Canes are light green to blue in hue with alternate, compound leaves. Fruits are sweet, many-seeded, and hollow.`,
     sun_reqs: `Partial Sun`,
     sowing_method: `Transplant from roots or juvenile plants`,
-    spread: 75, 
+    spread: 75,
     row_spacing: 200,
     height: 150,
     days_to_maturity: `Raspberry bush growth depends on cultivar and environment, but most varieties should be ready for harvest within 16 to 18 months after the initial planting. Bushes planted in U.S. Department of Agriculture plant hardiness zones 8 to 10 can tolerate some shade, but they thrive in full sunlight and well-draining soil with pH of 5.6 to 6.2. Hot, dry, windy weather can damage fruiting canes. Raspberry primocanes may grow 8 or 9 feet high during the spring and summer.`,
@@ -351,7 +347,112 @@ const cropsSeedData = [
     height: 915,
     days_to_maturity: `3 to 10 years before fruiting`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
-  }
+  },
+  {
+    name: `Eggplant`,
+    description: `Eggplants commonly are egg-shaped with glossy black skin, but can come in a
+    ariety of other shapes and colors. They can be white, yellow, and pale to deep purple.
+    Some are as small as goose eggs. The 'Rosa Bianca' cultivar is squat and round, while
+    Asian cultivars can be long and thin. Eggplant stems are often spiny and their flowers
+    range from white to purple. Their flesh is generally white with a meaty texture and
+    small seeds in the center. They are delicious grilled, roasted, in soups and stews, and breaded and fried.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Start seeds indoors in flats or peat pots 8–9 weeks prior to the last spring frost date.
+    Seeds germinate quickly at temperatures between 70 to 90°F. Alternatively, buy 6- to 8-week-old nursery
+    transplants just before planting. Do not plant eggplant transplants into the garden until after the last
+    threat of frost. If purchasing transplants: Buy high-quality specimens. Do not purchase tall,
+    spindly plants or young plants that have blossoms or you will have a lower yield. Choose a very sunny spot for the best results.
+    Eggplant grows best in a well-drained sandy loam or loam soil, fairly high in organic matter.
+    Soil pH should be between 5.8 and 6.5 for best growth. Use a covering of black plastic mulch to
+    warm soils before setting out transplants. Eggplant requires moderate amounts of fertilizer.
+    Mix 1 inch or so of well-rotted manure or a general fertilizer such as 5-10-10 throughout the
+    planting bed about a week before planting. (Apply 2 to 3 pounds per 100 square feet. Or,
+    apply 1¼ pounds of 5-10-10 per 10 feet of row when the row spacing is 4 feet.)
+    If you’re growing eggplant in pots, use a dark-colored container that will absorb more sunlight.
+    Each plant needs five-gallon (or, larger) pots and should be placed in full sun and outdoors so it can be pollinated.
+    Use a premium potting mix to avoid disease. Stake the plants right away (just an inch or two from the plant) to
+    provide support as they climb and to avoid disturbing the soil later. If you live in a cold climate, consider using
+    row covers to keep the eggplants warm and sheltered. Open the ends of the row covers on warm days so that the bees may pollinate.
+    If transplanting, set 3- to 4-inch tall seedlings 2 to 2½ feet apart in rows that are 3 to 4 feet apart.
+    After planting, water well. Add a layer of mulch to retain moisture and suppress weeds.`,
+    spread: 30,
+    row_spacing: 60,
+    height: 50,
+    days_to_maturity: `Harvest eggplant 65 to 80 days after transplanting, depending on the variety.
+    When starting from seed, expect 100 to 120 days to maturity. July, August, and September (even into October)
+    are all harvest months for eggplant, depending on where you live and the variety you planted.
+    Don't wait too long to harvest!`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b79ddfe8d75000300038a.jpg?1466661339`
+    },
+    {
+    name: `Tomatoes`,
+    description: `Tomato plants are vines, initially decumbent, typically growing 180 cm (6 ft) or more
+    above the ground if supported, although erect bush varieties have been bred, generally 100 cm (3 ft 3 in)
+    tall or shorter. Indeterminate types are "tender" perennials, dying annually in temperate climates
+    (they are originally native to tropical highlands), although they can live up to three years in a
+    greenhouse in some cases. Determinate types are annual in all climates.`,
+    sun_reqs: `Full Sun, shade as necessary`,
+    sowing_method: `Start tomato seeds indoors about 6 to 8 weeks before the last frost in spring.
+    (Transplant tomato seedlings to the garden just after the last frost in spring.)
+    Sow tomatoes in individual pots with a light potting mix. Pots should have drain holes in the bottom.
+    Sow two to three seeds ½ inch deep and 1 inch (2.5 cm) apart in a small pot or flat.
+    Germination soil temperature can range between 65-86°F (18-30°C); the optimum soil temperature for
+    germinating seed is 86°F (30°C). Seeds can be started in a bright window or under fluorescent lights
+    set about 2 inches (5 cm) above the plants. Keep seed starting mix just moist until seeds germinate.
+    Germination takes 5 to 7 days at 75°F (24°C) or warmer. Clip away the weaker seedlings once the
+    strongest seedling is about 2 inches (5 cm) tall. Grow young seedlings on at 60° to 70°F (15-21°C);
+    allow a gentle breeze from a fan to rustle over young seedlings each day so that they grow strong stems.
+    About two weeks after germination seedlings can be transferred to larger 4-inch (10cm) pots;
+    be careful not to disturb the roots. This is called potting up. Garden soil is usually warm enough for tomato transplants
+    about 2 to 3 weeks after the last frost in spring. Tomato seedlings can be transplanted into the garden
+    when the outdoor soil temperature is at least 55°F (13°C) and the nighttime air temperatures are consistently
+    50°F (10°C) or warmer. Set young plants out protected from direct sun during the day for two weeks to harden off
+    and acclimatize before transplanting. This is called hardening off. Plants will not thrive in temperature cooler
+    than 50°F (10°C). If an unexpected frost threatens, transplants must be covered and protected. Set a tomato transplant
+    into the garden deeper than it was growing in its pot. Remove the lower leaves on the stem up to the top two sets of leaves.
+    Bury the stem up to the top two sets of leaves. New roots will grow on the buried stem. Burying stems at transplanting will
+    make for sturdier plants. Water newly transplanted seedlings. Give transplants a B-1 solution to guard against transplant shock.`,
+    spread: 120,
+    row_spacing: 90,
+    height: 120,
+    days_to_maturity: `Early-season tomatoes require 50 to 60 days to reach harvest from transplanting;
+    mid-season tomatoes require 60 to 80 days; late-season tomatoes require 80 or more days.
+    In hot summer-mild winter regions such as USDA zone 10 or warmer, tomatoes can be grown as a fall and winter crop.`,
+    photo_links: [`https://www.almanac.com/sites/default/files/image_nodes/tomatoes_helios4eos_gettyimages-edit.jpeg`]
+    },
+    {
+    name: `Swiss Chard`,
+    description: `Swiss Chard is a leafy green vegetable in the Beet family. The thick stems come in a
+    variety of colors including white, pink, red, yellow, orange, and pale green. It has large,
+    crinkly leaves with distinctive veins. The leaves and stems are edible and high in nutrients.
+    Swiss chard can be eaten raw or sautéed, baked, or steamed.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Since its seeds come several to a pod, so you’ll have little clusters of seedlings that need to be
+    thinned out before transplanting. Keep the sturdiest and rinse and enjoy the rest as nutritious microgreens. Start
+    seeds indoors three to four weeks before the last frost date, or direct sowing two weeks before this date. Seedlings
+    may be placed outside just after the last frost date has passed. For those in warmer regions, she says to direct sow
+    seeds about 10 weeks before the first frost date. Place seedlings outside at four weeks old. Sow seed in organically-rich
+    soil supplemented by compost and/or fertilizer as needed. A soil test is your best indicator of what’s required. Leafy vegetables
+    benefit from nitrogen supplementation, so consider a well-balanced, slow-release fertilizer if you decide to forgo the test.
+    At the recommended time, harden-off your seedlings. Acclimate them to the outdoors for a couple of hours each day for several
+    days prior to transplanting them into the garden or containers. If you choose to pot them, provide containers with good drainage
+    holes and a depth of at least 12 inches. Choose a smaller-stature variety, and trim leaves as soon as they reach six inches, to
+    encourage more leaf than root growth.  For garden plants, you may cut leaves at heights from six inches to two feet, depending upon plant size.
+    The smaller the leaf and stalk, the more tender the texture. In addition, leaving mature leaves unharvested may result in more root growth and fewer new leaves.
+    Prepare your garden soil to a depth of about 12 inches, working in any recommended amendments, and fertilizing if you so choose.
+    Place one seedling every 12 inches, leaving about 18 inches between rows. Water and maintain even moisture, never allowing the soil
+    to completely dry out during the plants’ acclimation to their new location. Some folks like to grow “baby greens,” meaning they like
+    to harvest them at a height of at least six inches tall. If this is your plan, consider planting much closer together, about six inches,
+    to get more leaves little leaves per square foot. Once established, plants need an inch or so of water throughout the growing season.
+    Supplement in the absence of rain, or plants will slow leaf production until moisture is restored.`,
+    spread: 20,
+    row_spacing: 30,
+    height: 35,
+    days_to_maturity: `This vegetable is a cut-and-come-again species that provides multiple harvests during the growing season.
+    You may be able to cut your first tender leaves as early as late spring. Harvesting stalks when they are young and tender, at about
+    six inches tall, is an excellent way to get the maximum number of harvests per year.`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c3b93f7b12f80004000001.jpg?1489221948`]
+    }
 ]
 
 module.exports = cropsSeedData;
