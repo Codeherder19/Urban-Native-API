@@ -3,7 +3,6 @@ const { response } = require('express');
 const express = require('express');
 const app = express();
 const router = express.Router();
-var faker = require('faker');
 const knex = require('knex')('development');
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
@@ -39,6 +38,7 @@ app.listen(app.get('port'), () => {
 app.get(`/api/v1/crops`, (request, response) => {
   const crops = app.locals.crops;
 
+
   if (!crops) {
     return response.sendStatus(404)
   }
@@ -46,17 +46,38 @@ app.get(`/api/v1/crops`, (request, response) => {
   response.status(200).json({ crops });
 })
 
-app.get(`/api/v1/users/:id`, (request, response) => {
-  const users = app.locals.users
-  const id = parseInt(request.params.id);
-  const currentUser = users.find(user => user.id == id)
+// const getAllUsers = (db) => {
+//   return db
+//     .select('*')
+//     .from('users')
+//     .then(rows => rows);
+// };
 
-  if (!currentUser) {
-    return response.sendStatus(404)
+app.get(`/api/v1/users/:id`, async (req, res) => {
+  try {
+    const users = await database('users').select();
+    const id = parseInt(req.params.id);
+    const currentUser = users.find(user => user.id == id)
+  
+    res.status(200).json(currentUser);
+  } catch(error) {
+      res.status(500).json({ error });
   }
+});
 
-  response.status(200).json(currentUser);
-  });
+// app.get(`/api/v1/users/:id`, async (request, response) => {
+
+//   const users = getAllUsers(database);
+//   const id = parseInt(request.params.id);
+//   const currentUser = users.find(user => user.id == id)
+
+//   if (!currentUser) {
+//     return response.sendStatus(404)
+//   }
+
+//   response.status(200).json(currentUser);
+// });
+
 
 app.locals.crops = [
   {
