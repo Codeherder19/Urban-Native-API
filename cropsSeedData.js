@@ -351,7 +351,29 @@ const cropsSeedData = [
     height: 915,
     days_to_maturity: `3 to 10 years before fruiting`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
-  }
+  },
+  {
+    name: `Pumpkin`,
+    description: `Pumpkins are squash cultivars that are round to oval in shape with thick, slightly ribbed skin that varies from deep yellow to orange in color. Their flesh ranges from yellow to gold and has large seeds. Like other members of the Cucurbitaceae family, they grow on sprawling vines. Different varieties of pumpkins are grown for food or decoration.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Direct seed indoors (and transplant outside after seedlings are hardened off) or outdoors`,
+    spread: 91,
+    row_spacing: 213,
+    height: 61,
+    days_to_maturity: `90-120 days to mature after seeds are planted, depending on the variety. Pumpkins are ripe when they are fully colored and have a hard rind and woody stem.`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4aa886130650002020000.jpg?1421126278`]
+  },
+  // {
+  //   name: `Sweet Potato`,
+  //   description: `The sweet potato is a large, starchy, tuberous root. The tuber is long and tapered and has yellow, orange, red, brown, purple, or beige skin. It's flesh can be white, red, pink, violet, yellow, orange, or purple. Sweet potato cultivars with white or pale yellow flesh are not as sweet and moist as those with red, pink or orange flesh. The heart-shaped leaves and vines are sometimes eaten as greens when the plants are young, but eating the leaves interferes with the growth of the tuber underground. The sweet potato is not related to the potato or the yam.`,
+  //   sun_reqs: `Full Sun`,
+  //   sowing_method: `Direct seed indoors (and transplant outside after seedlings are hardened off) or outdoors`,
+  //   spread: 91,
+  //   row_spacing: 213,
+  //   height: 61,
+  //   days_to_maturity: `90-120 days to mature after seeds are planted, depending on the variety. Pumpkins are ripe when they are fully colored and have a hard rind and woody stem.`,
+  //   photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54b4aa886130650002020000.jpg?1421126278`]
+  // }
 ]
 
 module.exports = cropsSeedData;
