@@ -35,23 +35,17 @@ app.listen(app.get('port'), () => {
     http://localhost:${app.get('port')}`);
 });
 
-app.get(`/api/v1/crops`, (request, response) => {
-  const crops = app.locals.crops;
+app.get(`/api/v1/crops`, async (req, res) => {
+  try {
+  const crops = await database('crops').select();
 
-
-  if (!crops) {
-    return response.sendStatus(404)
+  res.status(200).json(crops);
+  } catch(error) {
+  res.status(500).json({ error });
   }
-
-  response.status(200).json({ crops });
 })
 
-// const getAllUsers = (db) => {
-//   return db
-//     .select('*')
-//     .from('users')
-//     .then(rows => rows);
-// };
+
 
 app.get(`/api/v1/users/:id`, async (req, res) => {
   try {
@@ -64,19 +58,6 @@ app.get(`/api/v1/users/:id`, async (req, res) => {
       res.status(500).json({ error });
   }
 });
-
-// app.get(`/api/v1/users/:id`, async (request, response) => {
-
-//   const users = getAllUsers(database);
-//   const id = parseInt(request.params.id);
-//   const currentUser = users.find(user => user.id == id)
-
-//   if (!currentUser) {
-//     return response.sendStatus(404)
-//   }
-
-//   response.status(200).json(currentUser);
-// });
 
 
 app.locals.crops = [
@@ -433,37 +414,4 @@ app.locals.crops = [
     days_to_maturity: `More growing information is available in our resources section`,
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
   }
-]
-
-app.locals.users = [
-  {
-    id: 1,
-    firstName: `Merlin`,
-    lastName: `Crumpacker`,
-    myGarden: [1, 7]
-  },
-  {
-    id: 2,
-    firstName: `Jerry`,
-    lastName: `Garcia`,
-    myGarden: [1, 3, 8, 10]
-  },
-  {
-    id: 3,
-    firstName: `John`,
-    lastName: `Dillinger`,
-    myGarden: [1, 2, 3]
-  },
-  {
-    id: 4,
-    firstName: `Steven`,
-    lastName: `Universe`,
-    myGarden: [2, 5, 7, 8, 9, 10]
-  },
-  {
-    id: 5,
-    firstName: `Finn`,
-    lastName: `Mertens`,
-    myGarden: [6]
-  },
 ]
