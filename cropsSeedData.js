@@ -349,6 +349,31 @@ const cropsSeedData = [
     photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e47fe8d750003000439.jpg?1466666567`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b8e49fe8d75000300043a.jpg?1466666568`]
   },
   {
+    name: `Cabbage`,
+    description: `Cabbage is a member of the Brassica family and related to kale, broccoli, brussels sprouts, and cauliflower. It's dense, layered heads grow on stalks and are surrounded by looser outer leaves. It's leaves can be green, white, or purple in color, and smooth or crinkly in texture. Depending on the variety, the head can be round, oblong, or flat. Cabbage prefers cooler temperatures and is best planted in the spring or fall.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Start seeds indoors 4 to 6 weeks before the last frost in spring.
+    Place cabbage transplants in the garden when they are 3 to 4 inches (7-10cm) tall as early as 3 to 4 weeks before the last frost in spring.
+    Direct sow seed outdoors when the soil can be worked in spring.
+    In mild-winter regions, start seed in late summer for a winter or spring harvest.`,
+    spread: 40,
+    row_spacing: 60,
+    height: 30,
+    days_to_maturity: `Harvest when heads reach desired size and are firm. Mature heads left on the stem may split. Days to maturity is around 70 days for most green cabbage varieties and most produce 1- to 3-pound heads. To harvest, cut each cabbage head at its base with a sharp knife.`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5928732ef9f0b200040000c0.?1495823146`]
+  },
+  {
+    name: `Radish`,
+    description: `Radishes are fast-growing cool season root vegetables in the Brassica family. Their taproots come in variety of shapes, sizes, and colors and have a sharp, spicy taste. They are usually eaten raw and added to salads. Radishes need cool weather and moist soil - they do not do well in hot, dry environments. More growing information is available in individual species entries.`,
+    sun_reqs: `Full Sun`,
+    sowing_method: `Directly sow seeds outdoors ½ to 1 inch deep and 1 inch apart in rows 12 inches apart. Plant another round of seeds every 10 days or so—while weather is still cool—for a continuous harvest of radishes in the late spring and early summer. Plan on a fall planting.`,
+    spread: 8,
+    row_spacing: 10,
+    height: 15,
+    days_to_maturity: `Radishes require 22 to 70 days to come to harvest. Complete the harvest before the weather grows warm. Warm weather can result in small roots. Long days may also cause radishes to flower; plant radishes during the shorter days of spring and autumn.`,
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/58c3bf9f7b12f80004000015.?1489223581`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/54a9dda633316500020b0000.?1420418467`]
+  },
+  {
     name: `Pumpkin`,
     description: `Pumpkins are squash cultivars that are round to oval in shape with thick, slightly ribbed skin that varies from deep yellow to orange in color. Their flesh ranges from yellow to gold and has large seeds. Like other members of the Cucurbitaceae family, they grow on sprawling vines. Different varieties of pumpkins are grown for food or decoration.`,
     sun_reqs: `Full Sun`,

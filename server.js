@@ -1,12 +1,10 @@
 /* eslint-disable max-len */
-const { response } = require('express');
 const express = require('express');
 const app = express();
-const router = express.Router();
-const knex = require('knex')('development');
 const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
+const cors = require('cors');
 const db = require('knex')({
   client: 'pg',
   connection: {
@@ -16,12 +14,10 @@ const db = require('knex')({
     database: 'knextest'
   }
 });
-const cors = require('cors');
 
 app.use(cors());
 
 app.set('db', db);
-
 
 app.set('port', process.env.port || 3001);
 app.locals.title = 'Urban Native';
@@ -44,8 +40,6 @@ app.get(`/api/v1/crops`, async (req, res) => {
   res.status(500).json({ error });
   }
 })
-
-
 
 app.get(`/api/v1/users/:id`, async (req, res) => {
   try {
