@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const cropsSeedData = [
   {
 
@@ -257,16 +258,20 @@ const cropsSeedData = [
     name: `Apple`,
     description: `The apple is a deciduous tree in the Rose family grown for it's sweet fruit. The apple originated in Central Asia and has spread across the world. There are now over 7,500 cultivars bred for a variety of climates and characteristics. Apples are propagated through grafting because seeds do not breed true.`,
     sun_reqs: `Full Sun`,
+    sowing_method: `Before planting: soak the apple tree’s roots in a bucket or large tub of water for one to two hours. This helps keep the roots from drying out while you dig the planting hole. Avoid soaking roots for more than six hours. Remember: do not expose roots to freezing temperatures (or below) prior to planting.
+    Dig the planting hole deep and wide enough so the root system has plenty of room and room to spread and grow. When digging the planting hole, make sure it is deep and wide enough so the apple tree’s root system has plenty of room to easily expand. Keep the more-nutritious topsoil in a separate pile so you can put it in the bottom of the hole, where it’ll do the most good.
+    Place the apple tree in the center of the planting hole with its roots down and spread out. Holding onto the trunk to keep it vertical, backfill the hole, putting the topsoil back in first. You can avoid creating air pockets by working the soil carefully around the roots and tamping down firmly as you refill the planting hole around your apple tree.`,
     spread: 500,
     row_spacing: 548,
     height: 300,
     days_to_maturity: 200,
-    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939df7401f8790004000005.jpg?1496964975`]
+    photo_links: [`https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80`, `https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/5939df7401f8790004000005.jpg?1496964975`]
   },
   {
     name: `Strawberry`,
     description: "Strawberries are a hybrid species of the genus Fragaria that produce sweet, bright red fruits. \n\nThere are three main types of strawberries: \n\n1) summer-fruiting: produce a single, large crop of fruit the year after planting.  All types of strawberries begin to produce fewer and less sweet fruit once they are two years or older. Because strawberries are a hybrid, seeds will not breed true. Strawberries are predominantly propagated using bare root plugs or crowns or dividing runners. Make sure not to bury the crown when transplanting plugs.",
     sun_reqs: `Full Sun`,
+    sowing_method: `Transplant bare root plants/plugs or divide runners`,
     spread: 30,
     row_spacing: 35,
     height: 30,
@@ -277,6 +282,7 @@ const cropsSeedData = [
     name: `Raspberry`,
     description: `Raspberries are a perennial plant with erect to trailing canes that often have spines or thorns. The plants produce fruit in their second year of growth, but some \"primocane\" varieties exist that flower and fruit their first year. Canes are light green to blue in hue with alternate, compound leaves. Fruits are sweet, many-seeded, and hollow.`,
     sun_reqs: `Partial Sun`,
+    sowing_method: `Transplant from roots or juvenile plants`,
     spread: 75, 
     row_spacing: 200,
     height: 150,
@@ -287,6 +293,7 @@ const cropsSeedData = [
     name: `Plum`,
     description: `The plum is a fruit of the subgenus Prunus of the genus Prunus. The Prunus genus also includes the cherry, apricot, almond, and peach. Within the subgenus Prunus, there are many species. The two largest species groups are European Plums (Prunus domestica) and Japanese Plums (Prunus salicina). Apricots are also classified as a section of the Prunus subgenus. The skin of plums can be coated with a waxy bloom or it can be shiny. Plums can be purple, green, yellow, or red. Shape varies from oval to globular. Plums can be dried to make prunes. European Plums require 800-900 hours of chilling during the winter, Japanese Plums require 300-500. Some varieties are self-pollinating, but all plum trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sun_reqs: `Full Sun`,
+    sowing_method: `Transplant bare-root plant`,
     spread: 500,
     row_spacing: 500,
     height: 500,
@@ -297,6 +304,11 @@ const cropsSeedData = [
     name: `Peach`,
     description: `The peach tree is a deciduous tree native to Northwest China that produces stone, or drupe, fruits. It belongs to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach is classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Peaches and nectarines are the same species - nectarines have a recessive gene that makes their skin smooth rather than fuzzy. Cultivated peaches are divided into two groups: clingstones and freestones, depending on whether the flesh sticks to the stone or not. Peaches can have white or yellow fuzzy skin. Yellow peaches usually have an acidic tang coupled with sweetness. White peaches are very sweet with little acidity. Most cultivars require 500 hours of chilling around 0 to 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach tree of another variety with the same bloom period within 50 feet. Peaches should be thinned to 7-12cm apart when fruit are 2-3cm in diameter to increase mature fruit size. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sun_reqs: `Full Sun`,
+    sowing_method: `Growing from a peach pit:
+    They should be planted in well-draining soil, preferably with the addition of compost or other organic material.
+    Plant the peach pit about 3-4 inches deep and then cover it with about an inch or so of straw or similar mulch for overwintering. Water during planting and then only when dry. By spring, if the peach was any good, you should see sprouting and a new peach seedling will grow. For those germinated via the refrigerator, once germination occurs, transplant to a pot or in a permanent position outdoors (weather permitting).
+    Growing from seed:
+    Growing peaches from seed isn’t difficult once you’ve gotten through the germination process. Transplants can be treated and grown in pots just like any other fruit tree. Here is an article about growing peach trees if you’d like to learn more about peach tree care. Some peach pits germinate quick and easy and some take a little longer—or may not germinate at all. Whatever the case may be, don’t give up. With a little persistence and trying more than one variety, growing peaches from seed can be well worth the extra patience. Of course, then there’s the wait for fruit (up to three years or more). Remember, patience is a virtue! `,
     spread: 365,
     row_spacing: 300,
     height: 1000,
@@ -307,6 +319,10 @@ const cropsSeedData = [
     name: `Nectarine`,
     description: `The nectarine is a deciduous tree that produces stone, or drupe, fruits. It is actually the same species as a Peach, it just has a recessive gene that makes it's skin smooth rather than fuzzy. Both fruits belong to the genus Prunus which includes the cherry, apricot, almond, and plum. The peach and nectarine are classified with the almond in the subgenus Amygdalus because their stones are corrugated rather than smooth. Most cultivars require 500 hours of chilling at temperatures between 0 and 10 °C during the winter, and hot temperatures in the summer to ripen fruit. Some varieties are self-pollinating, while others require pollination by a peach or nectarine tree of another variety with the same bloom period within 50 feet. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sun_reqs: `Full Sun`,
+    sowing_method: `Remove the nectarine pit from the fruit and place it in a bowl of water to soak off any remaining pulp. If the pit floats then its not viable and you will need to try again with another pit. Air dry the seeds on the counter top for a 1 or 2 days.
+    Remove the seeds from the pit by cracking it open - try using a pair of nutcrackers to crack it open. Once removed, soak the seeds in a bowl of water overnight
+    Straitify (cold treat) the seeds. This process essentially simulates winter conditions and breaks the dormancy of the seed. Fill a lidded container half full with some moist potting soil and place the seeds on top of the soil. Close the lid of the container and place in the fridge. Leave for several weeks, make sure that the soil is kept slightly moist and does not dry out. After about a month, the seeds should begin to germinate
+    Plant each germinated seed in a small pot (about 6" diameter) filled with good quality potting soil. Plant the seed 0.5-1.0" deep in the center of the pot. Keep the soil moist but not wet and continue to grow the seedlings.`,
     spread: 365,
     row_spacing: 300,
     height: 1000,
@@ -317,6 +333,7 @@ const cropsSeedData = [
     name: `Apricot`,
     description: `The apricot is a small fruiting tree in the genus Prunus (of which other stone fruits like peaches, plums and cherries are also members). It is a section of the Prunus (Plum) subgenus. The apricot tree has a dense, spreading canopy with white to pinkish flowers. It's fruit are yellow to orange, smaller than peaches, and have smooth or velvety skin. The apricot can tolerate winter temperatures down to −30 °C, making it slightly more cold-hardy than peach trees. However, it is susceptible to spring frosts killing the blooms because it tends to flower very early. Some varieties are self-pollinating, but all apricot trees benefit from a pollination partner with the same bloom time within 15 meters. Standard and dwarf rootstocks are available. Dwarf trees can grow to 3 meters, standard to 4.5 meters.`,
     sun_reqs: `Full Sun`,
+    sowing_method: `Lay the pit on its side and use a nutcracker, hammer, or a vise to gently crack it open and reveal the apricot seed inside. Prepare the seed for germination by soaking it overnight in a bowl of room-temperature water. Then, wrap the seed in a wet paper towel, place it into a sealed plastic bag, and store the bag in a refrigerator set between 32 and 45 degrees Fahrenheit. Keep the seed in the refrigerator until it sprouts, which typically takes one to two months. Wait to plant until after the last frost. Apricot trees can grow in USDA hardiness zones five through nine. They thrive in climates where winters are cold enough to induce a dormancy period and summers are warm but not sweltering hot. Place your seed in the hole and cover it with a well-blended mix of soil and organic compost.`,
     spread: 450,
     row_spacing: 450,
     height: 450,
@@ -327,6 +344,8 @@ const cropsSeedData = [
     name: `Pear`,
     description: `Pears are fruiting trees or shrubs in the Pyrus genus, in the family Rosaceae. There are approximately 3000 varieties worldwide, and they are commonly divided into two major groups: European and Asian. European Pears are wider at the bottom and taper at the top. Asian Pears are shaped more like apples, and have a different texture and flavor. Most pear species are deciduous, but some in southeast Asia are evergreen. Pears are generally cold-hardy, surviving winter temperatures between -25 to -40°C. In the spring, they produce white (and sometimes, yellow or pink) flowers with 5 petals. Like apples, pears are propagated by grafting the selected variety onto a rootstock. `,
     sun_reqs: `Full Sun`,
+    sowing_method: `Pears prefer slightly acid soil (pH 5.9-6.5). Now dig a hole about three times the size of your pot and the same depth as the root ball. Set the soil you have dug out aside and mix it 50/50 with aged mushroom compost, aged manure, or rotten pine bark. Remove the plant from its pot and gently loosen the root ball. Cut any roots that swirl around the edges of the root ball. Place the plant in the planting hole and replace the soil with the mix 50/50 and gently pack down the dirt. To avoid planting too deep make sure the plant is at a position with the top most roots at the soil line. Next we need to thoroughly water the tree to settle the roots and eliminate air pockets. DO NOT PUT FERTILIZER IN THE PLANTING HOLE! Only apply fertilizer at the correct time of year.
+    If desired, construct a water basin at the base of the tree about 36 inches in diameter. Mulch in the spring & summer time should be about 4-6 inches deep. Keep mulch a few inches away from the trunk of the tree. Good mulch for pears in the spring, is a mix of compost and weed-free hay, while summer use weed-free hay or grass clippings alone.`,
     spread: 610,
     row_spacing: 610,
     height: 915,
