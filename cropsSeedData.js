@@ -355,7 +355,10 @@ const cropsSeedData = [
     name: `Cabbage`,
     description: `Cabbage is a member of the Brassica family and related to kale, broccoli, brussels sprouts, and cauliflower. It's dense, layered heads grow on stalks and are surrounded by looser outer leaves. It's leaves can be green, white, or purple in color, and smooth or crinkly in texture. Depending on the variety, the head can be round, oblong, or flat. Cabbage prefers cooler temperatures and is best planted in the spring or fall.`,
     sun_reqs: `Full Sun`,
-    sowing_method: `Direct seed indoors, transplant seedlings outside after hardening off.`,
+    sowing_method: `Start seeds indoors 4 to 6 weeks before the last frost in spring.
+    Place cabbage transplants in the garden when they are 3 to 4 inches (7-10cm) tall as early as 3 to 4 weeks before the last frost in spring.
+    Direct sow seed outdoors when the soil can be worked in spring.
+    In mild-winter regions, start seed in late summer for a winter or spring harvest.`,
     spread: 40,
     row_spacing: 60,
     height: 30,
@@ -366,7 +369,7 @@ const cropsSeedData = [
     name: `Radish`,
     description: `Radishes are fast-growing cool season root vegetables in the Brassica family. Their taproots come in variety of shapes, sizes, and colors and have a sharp, spicy taste. They are usually eaten raw and added to salads. Radishes need cool weather and moist soil - they do not do well in hot, dry environments. More growing information is available in individual species entries.`,
     sun_reqs: `Full Sun`,
-    sowing_method: `Direct seed outdoors`,
+    sowing_method: `Directly sow seeds outdoors ½ to 1 inch deep and 1 inch apart in rows 12 inches apart. Plant another round of seeds every 10 days or so—while weather is still cool—for a continuous harvest of radishes in the late spring and early summer. Plan on a fall planting.`,
     spread: 8,
     row_spacing: 10,
     height: 15,
