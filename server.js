@@ -5,19 +5,8 @@ const environment = process.env.NODE_ENV || 'development';
 const configuration = require('./knexfile')[environment];
 const database = require('knex')(configuration);
 const cors = require('cors');
-const db = require('knex')({
-  client: 'pg',
-  connection: {
-    host: 'localhost',
-    user: 'me',
-    password: '',
-    database: 'knextest'
-  }
-});
 
 app.use(cors());
-
-app.set('db', db);
 
 app.locals.title = 'Urban Native';
 
@@ -35,7 +24,7 @@ app.get(`/api/v1/crops`, async (req, res) => {
   } catch(error) {
   res.status(500).json({ error });
   }
-})
+});
 
 app.get(`/api/v1/users/:id`, async (req, res) => {
   try {
@@ -48,3 +37,10 @@ app.get(`/api/v1/users/:id`, async (req, res) => {
       res.status(500).json({ error });
   }
 });
+
+app.post(`/api/v1/crops`, async (req, res) => {
+  try {
+    const db
+
+  }
+})
