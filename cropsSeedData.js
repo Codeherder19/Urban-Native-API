@@ -429,7 +429,7 @@ const cropsSeedData = [
     When starting from seed, expect 100 to 120 days to maturity. July, August, and September (even into October)
     are all harvest months for eggplant, depending on where you live and the variety you planted.
     Don't wait too long to harvest!`,
-    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b79ddfe8d75000300038a.jpg?1466661339`
+    photo_links: [`https://s3.amazonaws.com/openfarm-project/production/media/pictures/attachments/576b79ddfe8d75000300038a.jpg?1466661339`]
     },
     {
     name: `Tomatoes`,

@@ -19,17 +19,13 @@ app.use(cors());
 
 app.set('db', db);
 
-app.set('port', process.env.port || 3001);
 app.locals.title = 'Urban Native';
 
 app.get('/', (request, response) => {
   response.send('This is Urban Native');
 });
 
-app.listen(app.get('port'), () => {
-  console.log(`${app.locals.title} is running on
-    http://localhost:${app.get('port')}`);
-});
+app.listen(process.env.PORT)
 
 app.get(`/api/v1/crops`, async (req, res) => {
   try {
@@ -46,7 +42,7 @@ app.get(`/api/v1/users/:id`, async (req, res) => {
     const users = await database('users').select();
     const id = parseInt(req.params.id);
     const currentUser = users.find(user => user.id == id)
-  
+
     res.status(200).json(currentUser);
   } catch(error) {
       res.status(500).json({ error });
