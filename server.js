@@ -51,7 +51,7 @@ app.put(`/api/v1/users/:id`, async (req, res) => {
     .update({
       my_garden: (req.body.my_garden)
     }).then(() => {
-      res.send('It worked mofo');
+      res.status(200).send('Successful PUT request');
     })
 
     // const parsedId = parseInt(req.params.id);
