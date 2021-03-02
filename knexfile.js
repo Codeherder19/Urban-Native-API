@@ -11,10 +11,10 @@ module.exports = {
       database: "urban_native"
     },
     migrations: {
-      directory: __dirname + "/migrations"
+      directory: "./migrations"
     },
     seeds: {
-      directory: __dirname + "/seeds"
+      directory: "./seeds"
     }
   },
 
@@ -22,10 +22,10 @@ module.exports = {
     client: 'pg',
     connection: process.env.DATABASE_URL,
     migrations: {
-      directory: __dirname + "/migrations"
+      directory: "./migrations"
     },
     seeds: {
-      directory: __dirname + "/seeds"
+      directory: "./seeds"
     }
   }
 
