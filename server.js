@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 const express = require('express');
 const app = express();
 const environment = process.env.NODE_ENV || 'development';
@@ -15,8 +14,8 @@ app.listen(process.env.PORT || 3001);
 
 app.locals.title = 'Urban Native';
 
-app.get('/', (request, response) => {
-  response.send('This is Urban Native');
+app.get('/', (req, res) => {
+  res.send('This is Urban Native API');
 });
 
 app.get(`/api/v1/crops`, async (req, res) => {
