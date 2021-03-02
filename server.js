@@ -45,9 +45,9 @@ app.put(`/api/v1/users/:id`, async (req, res) => {
   try {
 
     // knex.raw(`UPDATE "users" SET "my_garden" = ${req.body} WHERE "id" = ${req.params.id}`)
-
+    const parsedId = parseInt(req.params.id);
     return await database('users')
-    .where('id', req.params.id)
+    .where({ id: parsedId })
     .update({
       my_garden: (req.body.my_garden)
     }).then(() => {
